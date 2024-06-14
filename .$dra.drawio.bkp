@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-10-01T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="Theoretical Framework" id="theoretical-framework">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ══════════════════════════════════════════════════════════
+             TITLE BANNER
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="title" value="Conceptual Framework for Selecting a Process Discovery Technique&#xa;Vehicle Warranty Claim Handling — Automotive Industry (MBAD2024021)" 
+          style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fillColor=#1B3A6B;fontColor=#FFFFFF;strokeColor=none;rounded=1;arcSize=4;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="1490" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LAYER 1 — BUSINESS CONTEXT
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="layer1_bg" value="" 
+          style="rounded=1;arcSize=3;fillColor=#EFF3FB;strokeColor=#1B3A6B;strokeWidth=2;dashed=0;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="1490" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1_label" value="LAYER 1: BUSINESS CONTEXT" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#1B3A6B;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="95" y="136" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ctx1" value="🔧 Vehicle Reception&#xa;&amp; Job Card Creation" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx2" value="🔍 Fault Diagnosis&#xa;&amp; Repair Authorisation" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="310" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx3" value="🛠️ Repair Completion&#xa;&amp; Parts Recording" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx4" value="📋 Claim Entry&#xa;&amp; Submission to OEM" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="730" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx5" value="⚖️ OEM Review&#xa;Approve / Reject / Partial" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="940" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx6" value="🔁 Rework / Re-entry&#xa;(if rejected)" 
+          style="rounded=1;arcSize=20;fillColor=#FFE8CC;strokeColor=#CC6600;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1150" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx7" value="💰 Payment / Refund&#xa;&amp; Settlement" 
+          style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1360" y="165" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Flow arrows Layer 1 -->
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx1" target="ctx2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx2" target="ctx3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx3" target="ctx4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx4" target="ctx5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx5" target="ctx6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1B3A6B;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx6" target="ctx7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Rework loop back arrow -->
+        <mxCell id="a_loop" value="Resubmit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#CC6600;strokeWidth=2;dashed=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ctx6" target="ctx4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="280" />
+              <mxPoint x="820" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LAYER 2 — LOG CONDITIONS (3 columns)
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="layer2_bg" value="" 
+          style="rounded=1;arcSize=3;fillColor=#FFF8E6;strokeColor=#CC6600;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="1490" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2_label" value="LAYER 2: EVENT LOG CONDITIONS" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#CC6600;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="95" y="326" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lc1" value="⚡ Challenge A&#xa;Case ID Fragmentation&#xa;&#xa;Job card ≠ Claim no. ≠&#xa;Invoice ≠ Parts ref." 
+          style="rounded=1;arcSize=10;fillColor=#FFE8CC;strokeColor=#CC6600;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="355" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lc2" value="⚡ Challenge B&#xa;Asynchronous &amp; Partial Timestamps&#xa;&#xa;Real-time DMS events vs.&#xa;batch ERP postings" 
+          style="rounded=1;arcSize=10;fillColor=#FFE8CC;strokeColor=#CC6600;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="605" y="355" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lc3" value="⚡ Challenge C&#xa;Missing / Implicit Events&#xa;&#xa;Phone approvals, email evidence&#xa;requests — not logged in system" 
+          style="rounded=1;arcSize=10;fillColor=#FFE8CC;strokeColor=#CC6600;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1110" y="355" width="440" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LAYER 3 — QUALITY CRITERIA
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="layer3_bg" value="" 
+          style="rounded=1;arcSize=3;fillColor=#F0FAF0;strokeColor=#2E7D32;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="1490" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3_label" value="LAYER 3: QUALITY CRITERIA (Weighted for Traceability Objective)" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#2E7D32;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="95" y="536" width="600" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="qc1" value="Fitness / Recall&#xa;w = 0.30&#xa;Replays observed traces accurately" 
+          style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="562" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qc2" value="Precision&#xa;w = 0.25&#xa;Avoids over-general (flower) models" 
+          style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="370" y="562" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qc3" value="Generalization&#xa;w = 0.20&#xa;Handles unseen but valid variants" 
+          style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="640" y="562" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qc4" value="Simplicity&#xa;w = 0.15&#xa;Readable by dealer, OEM &amp; finance" 
+          style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="910" y="562" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qc5" value="Traceability&#xa;w = 0.10&#xa;Supports audit &amp; handover accountability" 
+          style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=1.5;fontSize=10;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1180" y="562" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qc_formula" value="Scoring formula: Score(A) = Σ wᵢ × sᵢ(A)" 
+          style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#2E7D32;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1400" y="580" width="155" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LAYER 4 — METHOD SELECTION (3 columns)
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="layer4_bg" value="" 
+          style="rounded=1;arcSize=3;fillColor=#EDE7F6;strokeColor=#4527A0;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="1490" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4_label" value="LAYER 4: METHOD SELECTION" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#4527A0;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="95" y="736" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Inductive Miner — PRIMARY -->
+        <mxCell id="im_box" value="" 
+          style="rounded=1;arcSize=8;fillColor=#7C3AED;strokeColor=#4527A0;strokeWidth=3;" 
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="760" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="im_badge" value="★ PRIMARY" 
+          style="rounded=1;arcSize=20;fillColor=#FFD700;strokeColor=#B8860B;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="120" y="768" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="im_title" value="Inductive Miner (IM)" 
+          style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="225" y="766" width="340" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="im_detail" value="• Block-structured, sound, interpretable model&#xa;• Handles concurrency, loops, rework explicitly&#xa;• Best for traceability, governance &amp; audit&#xa;• Applied to stitched end-to-end warranty log" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="115" y="800" width="455" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Split Miner — SUPPLEMENTARY -->
+        <mxCell id="sm_box" value="" 
+          style="rounded=1;arcSize=8;fillColor=#5B21B6;strokeColor=#4527A0;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="620" y="760" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_badge" value="◎ SUPPLEMENTARY" 
+          style="rounded=1;arcSize=20;fillColor=#A8D5A2;strokeColor=#2E7D32;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="640" y="768" width="145" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_title" value="Split Miner (SM)" 
+          style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="805" y="766" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sm_detail" value="• Optimises fitness-precision-simplicity balance&#xa;• Highlights dominant claim variant paths&#xa;• Avoids spaghetti / flower model extremes&#xa;• Applied to clustered variants for comparison" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="635" y="800" width="455" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Hybrid ML — PRE-PROCESSING -->
+        <mxCell id="ml_box" value="" 
+          style="rounded=1;arcSize=8;fillColor=#3730A3;strokeColor=#4527A0;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1140" y="760" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ml_badge" value="⚙ PRE-PROCESSING" 
+          style="rounded=1;arcSize=20;fillColor=#BFDBFE;strokeColor=#1D4ED8;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1160" y="768" width="145" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ml_title" value="Hybrid ML-Process Mining" 
+          style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1320" y="766" width="225" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ml_detail" value="• Links fragmented case IDs across systems&#xa;• Infers missing handover events (labelled)&#xa;• Classifies claim variants &amp; anomalies&#xa;• Enables IM / SM on enriched, stitched log" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#FFFFFF;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1155" y="800" width="400" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LAYER 5 — OUTCOME
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="layer5_bg" value="" 
+          style="rounded=1;arcSize=3;fillColor=#E3F2FD;strokeColor=#0D47A1;strokeWidth=2;" 
+          vertex="1" parent="1">
+          <mxGeometry x="80" y="970" width="1490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5_label" value="LAYER 5: OBJECTIVE &amp; OUTCOME" 
+          style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#0D47A1;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="95" y="976" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="out1" value="🎯 Enhanced Cross-System&#xa;Process Traceability" 
+          style="rounded=1;arcSize=15;fillColor=#0D47A1;fontColor=#FFFFFF;strokeColor=#0A2E6E;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="1005" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="out2" value="📊 End-to-End Visibility&#xa;Dealer → OEM → Finance" 
+          style="rounded=1;arcSize=15;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=#0D47A1;fontSize=11;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="380" y="1005" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="out3" value="🔎 Handover Accountability&#xa;&amp; Audit Readiness" 
+          style="rounded=1;arcSize=15;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=#0D47A1;fontSize=11;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="660" y="1005" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="out4" value="🗺️ Dominant Claim Variant&#xa;Identification" 
+          style="rounded=1;arcSize=15;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=#0D47A1;fontSize=11;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="940" y="1005" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="out5" value="⚡ Operational Improvement&#xa;via Process Insights" 
+          style="rounded=1;arcSize=15;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=#0D47A1;fontSize=11;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1220" y="1005" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="out6" value="🏛️ IATF 16949 /&#xa;Magnuson-Moss Compliance" 
+          style="rounded=1;arcSize=15;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=#0D47A1;fontSize=11;align=center;verticalAlign=middle;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1490" y="1005" width="65" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             VERTICAL CONNECTOR ARROWS BETWEEN LAYERS
+        ══════════════════════════════════════════════════════════ -->
+        <!-- Layer 1 → Layer 2 -->
+        <mxCell id="v1" value="Log Generated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#888888;strokeWidth=2;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="layer1_bg" target="layer2_bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 2 → Layer 3 -->
+        <mxCell id="v2" value="Challenges Inform&#xa;Criteria Weighting" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#888888;strokeWidth=2;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="layer2_bg" target="layer3_bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 3 → Layer 4 -->
+        <mxCell id="v3" value="Quality Criteria&#xa;Drive Selection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#888888;strokeWidth=2;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="layer3_bg" target="layer4_bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Layer 4 → Layer 5 -->
+        <mxCell id="v4" value="Method Applied&#xa;to Achieve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#888888;strokeWidth=2;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="layer4_bg" target="layer5_bg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             ML feeds into IM / SM arrow
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="ml_to_im" value="Enriched Log" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#FFD700;strokeWidth=2;dashed=1;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml_box" target="sm_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml_to_sm" value="Stitched Log" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#FFD700;strokeWidth=2;dashed=1;fontSize=9;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sm_box" target="im_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LEGEND
+        ══════════════════════════════════════════════════════════ -->
+        <mxCell id="legend_bg" value="" 
+          style="rounded=1;arcSize=5;fillColor=#F9F9F9;strokeColor=#AAAAAA;strokeWidth=1;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1490" y="130" width="80" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="LEGEND" 
+          style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;strokeColor=none;fillColor=none;" 
+          vertex="1" parent="1">
+          <mxGeometry x="1490" y="138" width="80" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1" value="Process Step" style="rounded=1;arcSize=20;fillColor=#DDEEFF;strokeColor=#1B3A6B;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="162" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg2" value="Exception / Rework" style="rounded=1;arcSize=20;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="204" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg3" value="Log Challenge" style="rounded=1;arcSize=10;fillColor=#FFE8CC;strokeColor=#CC6600;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="246" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg4" value="Quality Criterion" style="ellipse;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="288" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg5" value="Primary Method" style="rounded=1;fillColor=#7C3AED;fontColor=#FFFFFF;strokeColor=#4527A0;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="330" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg6" value="Supplementary" style="rounded=1;fillColor=#5B21B6;fontColor=#FFFFFF;strokeColor=#4527A0;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="372" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg7" value="Pre-processing" style="rounded=1;fillColor=#3730A3;fontColor=#FFFFFF;strokeColor=#4527A0;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="414" width="64" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg8" value="Outcome" style="rounded=1;fillColor=#0D47A1;fontColor=#FFFFFF;strokeColor=#0A2E6E;fontSize=8;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1498" y="456" width="64" height="30" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
