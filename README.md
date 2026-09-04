@@ -1,4 +1,4 @@
-# Image Processing Mini-Projects
+# Image Processing Mini-Projects edited
 
 This repository contains four fundamental image processing tasks implemented in Python within a Jupyter environment. The code for each task is detailed below, providing a clear, self-contained guide to each operation.
 
